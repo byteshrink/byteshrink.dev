@@ -73,6 +73,9 @@ export default function Home() {
         <p className="text-center text-lg text-gray-600">Drag & drop your <code>package.json</code> here, or click to upload</p>
       </div>
 
+      <p className="text-base text-gray-300 mt-4">Alternatively use our CLI directly in your project root: <code>npx byteshrink ./package.json</code></p>
+
+    
       {loading && <p className="mt-6 text-blue-500 animate-pulse">Analyzing your dependencies…</p>}
       {error && <p className="mt-6 text-red-500">❌ {error}</p>}
       {html && (
@@ -81,6 +84,17 @@ export default function Home() {
           dangerouslySetInnerHTML={{ __html: html }}
         />
       )}
+
+
+        <p className="text-sm text-gray-500 mt-2">
+            <strong>Note:</strong> We only analyze dependencies and devDependencies.<br />
+            <strong>Tip:</strong> For best results, ensure your <code>package.json</code> is valid JSON.<br />
+            <strong>Privacy:</strong> Your <code>package.json</code> is processed securely and not stored.
+        </p>
+
+      <p className="text-sm text-gray-500 mt-2">
+        <strong>Created with ❤️ by:</strong> <a href="https://denodell.com" className="text-blue-500 hover:underline">Den Odell</a>
+      </p>
     </main>
   );
 }
