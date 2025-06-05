@@ -47,7 +47,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-center p-6">
-      <h1 className="text-4xl font-bold mb-6">ByteShrink</h1>
+      <h1 className="text-4xl font-bold mb-6">ByteShrink AI</h1>
       <p className="mb-8 text-gray-600">Upload your package.json to get optimization suggestions.</p>
       <Dropzone onUpload={handleUpload} />
       {error && <p className="text-red-500 mt-4">{error}</p>}
