@@ -7,6 +7,13 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
+# Next.js
+.next/
+# Ignore the cache directory created by Next.js
+.cache/
+# Ignore the build output directory created by Next.js
+out/
+
 # Additional Ruby/bundler ignore for when you run: bundle install
 /vendor
 
@@ -16,3 +23,4 @@ _site/
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
+node_modules
