@@ -5,8 +5,8 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ByteShrink",
-  description: "Shrink your frontend dependencies with AI.",
+  title: "ByteShrink AI",
+  description: "Shrink your frontend dependencies with AI - just upload your package.json file.",
 };
 
 export default function RootLayout({
