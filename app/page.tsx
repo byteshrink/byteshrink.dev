@@ -63,9 +63,9 @@ export default function Home() {
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-center p-4">
-      <h1 className="text-3xl font-bold mb-2 text-center">ByteShrink</h1>
+      <h1 className="text-3xl font-bold mb-2 text-center">ByteShrink AI</h1>
       <p className="text-lg text-gray-600 mb-6 text-center">
-        Drop your <code>package.json</code> and we'll suggest ways to shrink your bundle.
+        Drop your <code>package.json</code> and let our AI model suggest ways to shrink your bundle.
       </p>
 
         <div {...getRootProps()} className="border-4 border-dashed border-gray-400 p-20 rounded-lg cursor-pointer hover:bg-gray-100 transition">
