@@ -393,7 +393,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
               <div className="flex items-center gap-6">
                 <a
-                  href="https://github.com/denodell/byteshrink-ai"
+                  href="https://github.com/denodell/byteshrink-api"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-purple-300 hover:text-purple-200 transition-colors duration-300"
