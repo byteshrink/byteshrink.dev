@@ -2,7 +2,7 @@
 
 Frontend bundle optimization, now with AI.
 
-This is the official UI for the [ByteShrink](https://github.com/byteshrink) project. Upload a `package.json` file to get instant AI-powered insights into bundle size bloat, outdated packages, and lighter alternatives.
+This is the official UI wrapper for the [ByteShrink AI API](https://github.com/denodell/byteshrink-api) project. Upload a `package.json` file to get instant AI-powered insights into bundle size bloat, outdated packages, and lighter alternatives.
 
 ---
 
