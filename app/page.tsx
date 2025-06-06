@@ -155,8 +155,9 @@ export default function Home() {
             -->*/}
           </div>
           <p className="mt-4 text-gray-300 text-lg">
-            Drag and drop your project's <code>package.json</code> file to analyze its contents and generate insights
-          </p>
+              <strong>Drop in your <code>package.json</code>.</strong> Get back AI-powered insights on performance-critical dependencies, over-bundled modules, and smarter package choices.<br />
+              Prefer automation? Use the CLI for seamless integration into your workflow.
+</p>
         </header>
 
         {/* CLI Info Card */}
