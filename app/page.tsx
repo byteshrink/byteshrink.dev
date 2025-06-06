@@ -382,8 +382,8 @@ export default function Home() {
                 <div>
                   <h3 className="text-lg font-semibold text-white mb-2">Privacy & Data Usage</h3>
                   <div className="space-y-2 text-gray-100">
-                    <p>📦 For package.json files, we only read the "dependencies" and "devDependencies" fields</p>
-                    <p>🛡️ Your data remains private and secure throughout the analysis process. Nothing is stored</p>
+                    <p>📦 For package.json files, we only read the "dependencies" and "devDependencies" fields.</p>
+                    <p>🛡️ Your data remains private and secure throughout the analysis process. Nothing is stored.</p>
                   </div>
                 </div>
               </div>
