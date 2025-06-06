@@ -73,8 +73,8 @@ export default function Home() {
         <p className="text-center text-lg text-gray-600">Drag & drop your <code>package.json</code> here, or click to upload</p>
       </div>
 
-      <p className="text-base text-black mt-4">Alternatively use our CLI directly in your project root<br />
-      <code>npx byteshrink ./package.json</code></p>
+      <p className="text-base text-black mt-4 text-center">Alternatively use our CLI directly in your project root<br />
+      <code className="text-lg text-gray-500 mt-8">npx byteshrink ./package.json</code></p>
 
     
       {loading && <p className="mt-6 text-blue-500 animate-pulse">Analyzing your dependencies…</p>}
@@ -86,7 +86,7 @@ export default function Home() {
         />
       )}
 
-<hr />
+        <hr className="border-b-1 border-b-gray-500" />
 
             <p className="text-sm text-gray-500 mt-2 text-center">
             <strong>Note:</strong> We only analyze dependencies and devDependencies.<br />
