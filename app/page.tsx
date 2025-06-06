@@ -155,7 +155,7 @@ export default function Home() {
             -->*/}
           </div>
           <p className="mt-4 text-gray-300 text-lg">
-            Drag and drop your JSON file to analyze its contents and generate insights
+            Drag and drop your project's package.json file to analyze its contents and generate insights
           </p>
         </header>
 
@@ -219,13 +219,13 @@ export default function Home() {
               </div>
               {isDragActive ? (
                 <div className="text-center">
-                  <p className="text-2xl font-semibold text-purple-300 mb-2">Drop your JSON file here</p>
+                  <p className="text-2xl font-semibold text-purple-300 mb-2">Drop package.json file here</p>
                   <p className="text-purple-400">Release to analyze</p>
                 </div>
               ) : (
                 <div className="text-center">
                   <p className="text-xl font-semibold text-white mb-2 group-hover:text-purple-300 transition-colors">
-                    Drag & drop your JSON file here
+                    Drag & drop your package.json file here
                   </p>
                   <p className="text-gray-400 group-hover:text-purple-400 transition-colors">
                     or click to select a file
@@ -250,7 +250,7 @@ export default function Home() {
                       <Loader2 className="h-12 w-12 text-purple-400 opacity-30" />
                     </div>
                   </div>
-                  <p className="text-xl text-white mb-2">Analyzing your JSON file...</p>
+                  <p className="text-xl text-white mb-2">Analyzing your package.json file...</p>
                   <p className="text-purple-300">AI is processing your data</p>
                   <div className="mt-4 w-64 h-2 bg-gray-700 rounded-full overflow-hidden">
                     <div className="h-full bg-gradient-to-r from-purple-500 to-pink-500 rounded-full animate-pulse"></div>
