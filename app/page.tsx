@@ -174,12 +174,12 @@ export default function Home() {
               </h2>
               <p className="mt-2 text-gray-100">You can also use ByteShrink directly from your terminal:</p>
               <div className="mt-4 p-4 bg-black/50 rounded-lg border border-purple-500/30 backdrop-blur-sm group hover:border-purple-400/50 transition-all duration-300">
-                <code className="text-green-400 font-mono text-sm">npx byteshrink ./package.json</code>
+                <code className="text-green-400 font-mono text-sm">npx @byteshrink/cli ./package.json</code>
                 <Button
                   size="sm"
                   variant="ghost"
                   className="ml-4 text-purple-300 hover:text-white hover:bg-purple-500/20"
-                  onClick={() => navigator.clipboard.writeText("npx byteshrink ./package.json")}
+                  onClick={() => navigator.clipboard.writeText("npx @byteshrink/cli ./package.json")}
                 >
                   Copy
                 </Button>
