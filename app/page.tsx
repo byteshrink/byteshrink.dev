@@ -329,7 +329,7 @@ export default function Home() {
 
                   <TabsContent value="preview" className="mt-6">
                     <Card className="p-8 bg-white/95 backdrop-blur-sm border-purple-500/30 shadow-2xl min-h-[300px]">
-                      <div dangerouslySetInnerHTML={{ __html: htmlResponse }} className="prose prose-lg max-w-none" />
+                      <div dangerouslySetInnerHTML={{ __html: htmlResponse }} className="prose prose-base max-w-none" />
                     </Card>
                   </TabsContent>
 
